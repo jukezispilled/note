@@ -26,6 +26,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-black flex flex-col items-center justify-center text-white p-6">
+      <div className='absolute top-5 text-xs md:text-base'>CA: updating...</div>
 
       {/* Input area for the user */}
       <textarea
